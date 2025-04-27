@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3835720779840995641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 12534494599429730}
+  - component: {fileID: 2225852980432327570}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &12534494599429730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835720779840995641}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2225852980432327570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835720779840995641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bca00fdaea7b974f9a29fa6144be190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabSettings:
+  - prefab: {fileID: 6174540588502958096, guid: 6ffa7e8a6b4db0b4bb5f57b0bd95cb9e, type: 3}
+    priority: 2
+    maxSpawnCount: 0
+    currentSpawnCount: 0
+  - prefab: {fileID: 3520272619735858771, guid: 8b341de6dd75cf94faf79104e1d24361, type: 3}
+    priority: 3
+    maxSpawnCount: 0
+    currentSpawnCount: 0
+  minSpawnCount: 10
+  maxSpawnCount: 30
+  useRandomColors: 1
+  predefinedColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 1, g: 1, b: 0, a: 1}
+  - {r: 1, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0.5, b: 0, a: 1}
+  - {r: 0.5, g: 0, b: 1, a: 1}
+  - {r: 0, g: 0.5, b: 0, a: 1}
+  - {r: 0.5, g: 0.25, b: 0, a: 1}
+  screenWidthPercentage: 0.8
+  screenHeightPercentage: 0.8
+  minRotation: -180
+  maxRotation: 180

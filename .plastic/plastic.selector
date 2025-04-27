@@ -1,0 +1,4 @@
+repository "FindTheObjectGame1@bodhikittu@cloud"
+  path "/"
+    br "/main"
+    co "/main"
