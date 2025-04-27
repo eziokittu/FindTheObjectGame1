@@ -9,7 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 12534494599429730}
-  - component: {fileID: 2225852980432327570}
+  - component: {fileID: 5626706165915331274}
+  - component: {fileID: 5279874774969426375}
+  - component: {fileID: 7759999486286023500}
+  - component: {fileID: 4897780272443096980}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -32,7 +35,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2225852980432327570
+--- !u!114 &5626706165915331274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,20 +44,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 3835720779840995641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bca00fdaea7b974f9a29fa6144be190, type: 3}
+  m_Script: {fileID: 11500000, guid: 8500c4119767322428de4dc4f9acc413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabSettings:
+  borderPrefab: {fileID: 3301903595606522780, guid: 9259e0bdf6024d148bd4f0168466beb0, type: 3}
+  boardPrefab: {fileID: 7533465847283447766, guid: 2b3826e32279cd642990d70030d1a8b5, type: 3}
+  borderThickness: 0.5
+  cardPrefabSettings:
   - prefab: {fileID: 6174540588502958096, guid: 6ffa7e8a6b4db0b4bb5f57b0bd95cb9e, type: 3}
-    priority: 2
+    priority: 0
     maxSpawnCount: 0
     currentSpawnCount: 0
   - prefab: {fileID: 3520272619735858771, guid: 8b341de6dd75cf94faf79104e1d24361, type: 3}
-    priority: 3
+    priority: 0
     maxSpawnCount: 0
     currentSpawnCount: 0
-  minSpawnCount: 10
-  maxSpawnCount: 30
+  - prefab: {fileID: 3223763064447013870, guid: 3032c580c5d29c34bb66f3619e74cf23, type: 3}
+    priority: 0
+    maxSpawnCount: 0
+    currentSpawnCount: 0
+  - prefab: {fileID: 5137585256440488106, guid: 130ba6c18f0593f4187925708a6bc74e, type: 3}
+    priority: 0
+    maxSpawnCount: 0
+    currentSpawnCount: 0
+  cardSize: 1
+  minSpawnCount: 45
+  maxSpawnCount: 60
   useRandomColors: 1
   predefinedColors:
   - {r: 1, g: 0, b: 0, a: 1}
@@ -71,3 +86,40 @@ MonoBehaviour:
   screenHeightPercentage: 0.8
   minRotation: -180
   maxRotation: 180
+  debugMode: 0
+--- !u!114 &5279874774969426375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835720779840995641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94177dbe7ea0f614880fb5cc7d5c38f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7759999486286023500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835720779840995641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22353309d51f7bc4eaa7169e4a813bea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4897780272443096980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835720779840995641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a437026126c52224c881183369962962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

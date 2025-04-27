@@ -493,12 +493,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2225852980432327570, guid: c7a3b381228276243aa0821f72eb3457, type: 3}
+      propertyPath: boardPrefab
+      value: 
+      objectReference: {fileID: 7533465847283447766, guid: 2b3826e32279cd642990d70030d1a8b5, type: 3}
+    - target: {fileID: 2225852980432327570, guid: c7a3b381228276243aa0821f72eb3457, type: 3}
+      propertyPath: borderPrefab
+      value: 
+      objectReference: {fileID: 3301903595606522780, guid: 9259e0bdf6024d148bd4f0168466beb0, type: 3}
+    - target: {fileID: 2225852980432327570, guid: c7a3b381228276243aa0821f72eb3457, type: 3}
       propertyPath: maxSpawnCount
       value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2225852980432327570, guid: c7a3b381228276243aa0821f72eb3457, type: 3}
       propertyPath: minSpawnCount
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2225852980432327570, guid: c7a3b381228276243aa0821f72eb3457, type: 3}
+      propertyPath: borderThickness
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2225852980432327570, guid: c7a3b381228276243aa0821f72eb3457, type: 3}
       propertyPath: screenWidthPercentage
